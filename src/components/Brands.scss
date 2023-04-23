@@ -1,0 +1,17 @@
+.brands{
+    text-align: center;
+    margin-bottom: 120px;
+    background-color: #F6F9FA;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    .imgs{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+        img{
+            max-width: 150px;
+        }
+    }
+}

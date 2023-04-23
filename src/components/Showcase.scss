@@ -1,0 +1,42 @@
+.showcase{
+    margin-top: 120px;
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: space-between;
+
+    .delivery, .secure, .guarantee, .payment-system{
+        text-align: center;
+        background-color: #F6F9FA;
+        border-radius: 10px;
+
+        p{
+            font-size: 20px;
+            margin-top: 20px;
+        }
+    }
+
+    .assurance{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .secure, .guarantee{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 40px 20px;
+    }
+
+    .delivery, .payment-system{
+        padding: 120px 60px;
+    }
+
+    svg{
+        width: 6rem;
+        height: 6rem;
+        padding: 1rem;
+        border-radius: 50%;
+        background-color: #fff;
+        color: #5138ee;
+    }
+}

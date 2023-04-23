@@ -1,0 +1,21 @@
+.common-heading{
+    text-align: center;
+    padding: 60px 0;
+}
+
+.contact-form{
+    padding: 0 300px;
+    margin-top: 120px;
+
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        input, textarea{
+            width: 100%;
+            padding: 20px 10px;
+            margin-bottom: 20px;
+        }
+    }
+}

@@ -1,0 +1,17 @@
+.singleProduct-btn{
+    display: flex;
+    align-items: center;
+
+    .amount{
+        margin: 0 10px;
+    }
+
+    button{
+        border: none;
+        padding: 10px;
+
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}

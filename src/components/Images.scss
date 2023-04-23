@@ -1,0 +1,15 @@
+.images{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__left{
+        & img:hover{
+            cursor: pointer;
+        }
+    }
+
+    &__right{
+        margin-left: 20px;
+    }
+}
